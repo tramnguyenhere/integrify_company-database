@@ -17,7 +17,10 @@ The database schema for this assignment consists of the following tables:
 
 Write the queries to perform these following actions:
 
-- Create database with all tables with the neccessary properties and relationships (file `createDatabase.sql`)
+In file `createDatabase.sql`, provide the following querries:
+
+- Create database with all tables with the neccessary properties and relationships
+- Import data from the csv files to the created tables
 
 In file `retrieval.sql`, provide the following querries:
 
