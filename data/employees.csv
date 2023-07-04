@@ -1,4 +1,4 @@
-first_name,last_name,hire_date,hourly_salary,title_id,manager_id,team
+first_name,last_name,hire_date,hourly_salary,title_id,manager_id,team_id
 John,Doe,2022-01-01,150.00,1,NULL,NULL
 Jane,Smith,2023-03-15,120.00,2,1,1
 David,Johnson,2021-09-10,130.00,2,1,2
