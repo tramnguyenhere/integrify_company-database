@@ -1,6 +1,10 @@
--- Create database by superuser
+-- Create database
 
-\c - tramnguyen create database company_database;
+create database
+    company_database
+with
+    owner = admin encoding = 'UTF8' CONNECTION
+limit = -1 IS_TEMPLATE = False;
 
 -- Create table titles
 
