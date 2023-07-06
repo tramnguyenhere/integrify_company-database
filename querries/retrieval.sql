@@ -9,6 +9,18 @@ group by
     teams.id,
     teams.team_name;
 
+-- Retrieve the projects managed by the managers whose first name starts with "J" or "D".
+
+select distinct p.*
+from projects p
+    join team_project tp on p.id = tp.project_id
+    join employees e on tp.team_id = e.team_id
+    join employees manager on e.manager_id = manager.id
+where
+    manager.first_name like 'J%'
+    or manager.first_name like 'D%'
+order by id;
+
 -- Retrieve all the employees (both directly and indirectly) working under Andrew Martin
 
 select e2.*
