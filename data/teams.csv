@@ -1,7 +1,7 @@
-team_name,location
-Team Alpha,Amsterdam
-Team Bravo,Berlin
-Team Charlie,Copenhagen
-Team Delta,Prague
-Team Echo,Helsinki
-Team Foxtrot,Helsinki
+id,team_name,location,created_at,updated_at
+1,Team Alpha,Amsterdam,2023-07-10 14:05:59.095443,2023-07-10 14:05:59.095443
+2,Team Bravo,Berlin,2023-07-10 14:05:59.095443,2023-07-10 14:05:59.095443
+3,Team Charlie,Copenhagen,2023-07-10 14:05:59.095443,2023-07-10 14:05:59.095443
+4,Team Delta,Prague,2023-07-10 14:05:59.095443,2023-07-10 14:05:59.095443
+5,Team Echo,Helsinki,2023-07-10 14:05:59.095443,2023-07-10 14:05:59.095443
+6,Team Foxtrot,Helsinki,2023-07-10 14:05:59.095443,2023-07-10 14:05:59.095443
